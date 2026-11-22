@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,thấy rõ vật thể trong bóng khuất,rear_middle,gán object
+D03,real_IR,đốm phản xạ che mắt phải,right_eye_state,gán unknown
+D01,real_IR,khó khăn trong việc gán nhãn vùng miệng do màu môi không thấy rõ,"mouth_left, mouth_right, upper_lip, bottom_lip",gán tạm vùng miệng
+S06_ir,IR_sim,thấy rõ vật thể trong bóng khuất,rear_left,gán object
