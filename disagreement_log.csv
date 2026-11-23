@@ -4,7 +4,7 @@ D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,GUIDE 4.6,Giữ occl
 D01.png,face13,mouth_right.occluded,khác cờ,1,0,peer,GUIDE 4.6,Đổi occluded thành 0
 D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.49,,ambiguous,GUIDE 4.7,giữ nguyên
 D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.7,giữ nguyên
-D02.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 4.5,chỉ thấy tai với má
+D02.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,GUIDE 4.5,chỉ thấy tai với má
 D03.png,face,eye_right,khác giá trị (IoU=0.59),unknown,open,ambiguous,GUIDE 4.5,giữ nguyên
 D03.png,face,gaze_zone,khác giá trị (IoU=0.59),road,center,ambiguous,GUIDE 4.5,giữ nguyên
 D03.png,face13,right_eye_outer.occluded,khác cờ,0,1,mine,GUIDE 4.6,giữ nguyên
@@ -16,6 +16,14 @@ D04.png,face,gaze_zone,khác giá trị (IoU=0.70),other,mirror_r,mine,GUIDE 4.5
 D05.png,face,eye_left,khác giá trị (IoU=0.76),open,unknown,ambiguous,GUIDE 4.5,giữ nguyên
 D05.png,face,eye_right,khác giá trị (IoU=0.76),open,unknown,ambiguous,GUIDE 4.5,giữ nguyên
 D05.png,person,seatbelt,khác giá trị (IoU=0.97),worn_correct,unknown,mine,GUIDE 4.7,giữ nguyên
+D05.png,face13,left_eye_outer.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,left_eye_inner.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,left_eye_upper.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,left_eye_lower.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,right_eye_outer.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,right_eye_inner.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,right_eye_upper.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
+D05.png,face13,right_eye_lower.outside,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
 D06.png,face,eye_right,khác giá trị (IoU=0.96),open,unknown,peer,GUIDE 4.5,Đổi eye_right thành unknown
 D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,ambiguous,GUIDE 4.6,giữ nguyên
 D06.png,face13,left_eye_inner.occluded,khác cờ,0,1,ambiguous,GUIDE 4.6,giữ nguyên
@@ -28,7 +36,18 @@ S01_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,ambiguous,
 S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,no,peer,GUIDE 4.8,Đổi occupied thành no
 S02_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.5,không gán face
 S02_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.5,không gán face
+S03_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),yes,no,mine,,giữ nguyên
+S05_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
 S05_rgb.png,object,type,khác giá trị (IoU=0.95),other,bag,peer,GUIDE 4.8,Đổi type thành bag
+S05_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S06_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S06_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
+S06_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,GUIDE 4.2; GUIDE 4.8,giữ nguyên
 S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,peer,GUIDE 4.8,Đổi child_seat thành object cho thùng carton trên ghế
 S08_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,GUIDE 4.8,Đổi type thành box
 S08_rgb.png,frame_meta,modality,khác giá trị,ir,rgb,peer,GUIDE 4.3,Sửa modality thành rgb
