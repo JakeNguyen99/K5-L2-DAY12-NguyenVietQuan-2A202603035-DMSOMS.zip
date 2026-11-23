@@ -6,7 +6,7 @@ Mã bộ ảnh: **G03** · Hình thức: cá nhân
 |---|---|---|---|---:|
 | Nguyễn Việt Quân | 2A202603035 | Có | Nguyễn Thị Thúy An | 55 |
 
-Ca còn chưa thống nhất, cần hỏi coach: các dòng `ambiguous` trong disagreement log, nhất là G03 S01, S03, S05, S06 và D02, D03, D05, D06.
+Ca còn chưa thống nhất, cần hỏi coach: các dòng `ambiguous` trong disagreement log.
 
 ## Cá nhân
 
